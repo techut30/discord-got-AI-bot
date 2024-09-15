@@ -57,9 +57,22 @@ This repository contains the code for a Discord bot that integrates with OpenAI'
    ```bash
    pip install -r requirements.txt
 
-3. ##Set up your environment variables
-   -Replace the placeholder YOUR-BOT-TOKEN with your actual Discord bot token.
-   -Replace the placeholder YOUR-OPEN-AI-API-KEY with your OpenAI API key.
-   -Update the GUILD_ID to your server's guild ID.
+### Set up your environment variables:
+
+1. Replace the placeholder `YOUR-BOT-TOKEN` with your actual Discord bot token in `bot.py`:
+   ```python
+   BOT_TOKEN = "YOUR-BOT-TOKEN"
+2. Replace the placeholder YOUR-OPEN-AI-API-KEY with your OpenAI API key in openai_client.py:
+   ```bash
+   API_KEY = "YOUR-OPEN-AI-API-KEY"
+
+3. Update the GUILD_ID to your server's guild ID in bot.py:
+   ```bash
+   GUILD_ID = 000000000000000000  # replace with your guild id
+
+4. Make sure to keep your bot token and API key secure and never share them publicly.
+   ```bash
+   
+This way, each step is clearly defined, and the code changes are presented in a neat, readable format. The use of code blocks and numbered instructions makes the section more visually appealing and easier to follow.
 
 
