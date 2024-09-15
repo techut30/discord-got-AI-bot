@@ -72,7 +72,27 @@ This repository contains the code for a Discord bot that integrates with OpenAI'
 
 4. Make sure to keep your bot token and API key secure and never share them publicly.
    ```bash
-   
-This way, each step is clearly defined, and the code changes are presented in a neat, readable format. The use of code blocks and numbered instructions makes the section more visually appealing and easier to follow.
+   This way, each step is clearly defined, and the code changes are presented in a neat, readable format. The use of code blocks and numbered instructions makes the section more visually appealing and easier to follow.
+
+
+
+
+### Run the bot:
+```bash
+python bot.py
+
+
+
+Commands
+
+Command	Description
+/hello	Sends a greeting message.
+/ping	Sends a simple ping response with latency.
+/prompt	Sends a prompt to the AI and receives a response.
+/start	Initializes or reloads the AI conversation.
+/invite	Generates an invite link for the bot.
+/shutdown	Shuts down the AI model.
+/help	Lists all the available commands.
+
 
 
